@@ -1,0 +1,59 @@
+body {
+  width: 70%;
+  height: 1000px;
+  margin: 5%;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1e1e1;
+}
+
+#html{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+#board{
+  width: 900px;
+  height: 800px;
+  display: grid;
+  gap: 120px;
+  grid-template-columns: repeat(3,1fr);
+  background-image: url(img/frame.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box{
+  height: 190px;
+  width: 190px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#X{
+  width: 303px;
+  height: 303px;
+}
+
+#xs{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#O{
+  width: 255px;
+  height: 303px;
+  margin-top: 30px;
+}
+
+#os{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
